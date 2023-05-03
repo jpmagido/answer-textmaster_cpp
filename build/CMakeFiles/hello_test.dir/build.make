@@ -69,28 +69,28 @@ include CMakeFiles/hello_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hello_test.dir/flags.make
 
-CMakeFiles/hello_test.dir/test/hello_test.cc.o: CMakeFiles/hello_test.dir/flags.make
-CMakeFiles/hello_test.dir/test/hello_test.cc.o: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/hello_test.cc
-CMakeFiles/hello_test.dir/test/hello_test.cc.o: CMakeFiles/hello_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello_test.dir/test/hello_test.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_test.dir/test/hello_test.cc.o -MF CMakeFiles/hello_test.dir/test/hello_test.cc.o.d -o CMakeFiles/hello_test.dir/test/hello_test.cc.o -c /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/hello_test.cc
+CMakeFiles/hello_test.dir/test/checkout_spec.cc.o: CMakeFiles/hello_test.dir/flags.make
+CMakeFiles/hello_test.dir/test/checkout_spec.cc.o: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/checkout_spec.cc
+CMakeFiles/hello_test.dir/test/checkout_spec.cc.o: CMakeFiles/hello_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello_test.dir/test/checkout_spec.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_test.dir/test/checkout_spec.cc.o -MF CMakeFiles/hello_test.dir/test/checkout_spec.cc.o.d -o CMakeFiles/hello_test.dir/test/checkout_spec.cc.o -c /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/checkout_spec.cc
 
-CMakeFiles/hello_test.dir/test/hello_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello_test.dir/test/hello_test.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/hello_test.cc > CMakeFiles/hello_test.dir/test/hello_test.cc.i
+CMakeFiles/hello_test.dir/test/checkout_spec.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello_test.dir/test/checkout_spec.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/checkout_spec.cc > CMakeFiles/hello_test.dir/test/checkout_spec.cc.i
 
-CMakeFiles/hello_test.dir/test/hello_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_test.dir/test/hello_test.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/hello_test.cc -o CMakeFiles/hello_test.dir/test/hello_test.cc.s
+CMakeFiles/hello_test.dir/test/checkout_spec.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_test.dir/test/checkout_spec.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/checkout_spec.cc -o CMakeFiles/hello_test.dir/test/checkout_spec.cc.s
 
 # Object files for target hello_test
 hello_test_OBJECTS = \
-"CMakeFiles/hello_test.dir/test/hello_test.cc.o"
+"CMakeFiles/hello_test.dir/test/checkout_spec.cc.o"
 
 # External object files for target hello_test
 hello_test_EXTERNAL_OBJECTS =
 
-hello_test: CMakeFiles/hello_test.dir/test/hello_test.cc.o
+hello_test: CMakeFiles/hello_test.dir/test/checkout_spec.cc.o
 hello_test: CMakeFiles/hello_test.dir/build.make
 hello_test: lib/libgtest_main.a
 hello_test: lib/libgtest.a

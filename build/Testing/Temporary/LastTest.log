@@ -1,20 +1,20 @@
-Start testing: May 03 20:25 CEST
+Start testing: May 04 01:56 CEST
 ----------------------------------------------------------
-1/1 Testing: HelloTest.BasicAssertions
-1/1 Test: HelloTest.BasicAssertions
-Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/hello_test" "--gtest_filter=HelloTest.BasicAssertions" "--gtest_also_run_disabled_tests"
+1/3 Testing: Constructor.InitializeProperly
+1/3 Test: Constructor.InitializeProperly
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/hello_test" "--gtest_filter=Constructor.InitializeProperly" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"HelloTest.BasicAssertions" start time: May 03 20:25 CEST
+"Constructor.InitializeProperly" start time: May 04 01:56 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = HelloTest.BasicAssertions
+Note: Google Test filter = Constructor.InitializeProperly
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from HelloTest
-[ RUN      ] HelloTest.BasicAssertions
-[       OK ] HelloTest.BasicAssertions (0 ms)
-[----------] 1 test from HelloTest (0 ms total)
+[----------] 1 test from Constructor
+[ RUN      ] Constructor.InitializeProperly
+[       OK ] Constructor.InitializeProperly (0 ms)
+[----------] 1 test from Constructor (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -23,8 +23,63 @@ Note: Google Test filter = HelloTest.BasicAssertions
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertions" end time: May 03 20:25 CEST
-"HelloTest.BasicAssertions" time elapsed: 00:00:00
+"Constructor.InitializeProperly" end time: May 04 01:56 CEST
+"Constructor.InitializeProperly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 03 20:25 CEST
+2/3 Testing: Scan.StoreItem
+2/3 Test: Scan.StoreItem
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/hello_test" "--gtest_filter=Scan.StoreItem" "--gtest_also_run_disabled_tests"
+Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
+"Scan.StoreItem" start time: May 04 01:56 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Scan.StoreItem
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Scan
+[ RUN      ] Scan.StoreItem
+[       OK ] Scan.StoreItem (0 ms)
+[----------] 1 test from Scan (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Scan.StoreItem" end time: May 04 01:56 CEST
+"Scan.StoreItem" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: Total.ReturnTotal
+3/3 Test: Total.ReturnTotal
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/hello_test" "--gtest_filter=Total.ReturnTotal" "--gtest_also_run_disabled_tests"
+Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
+"Total.ReturnTotal" start time: May 04 01:56 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Total.ReturnTotal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Total
+[ RUN      ] Total.ReturnTotal
+items_count: 2
+[       OK ] Total.ReturnTotal (0 ms)
+[----------] 1 test from Total (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Total.ReturnTotal" end time: May 04 01:56 CEST
+"Total.ReturnTotal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 04 01:56 CEST

@@ -273,29 +273,29 @@ src/cash_register.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cash_register.dir/build.make CMakeFiles/cash_register.dir/src/cash_register.cpp.s
 .PHONY : src/cash_register.cpp.s
 
-test/hello_test.o: test/hello_test.cc.o
-.PHONY : test/hello_test.o
+test/checkout_spec.o: test/checkout_spec.cc.o
+.PHONY : test/checkout_spec.o
 
 # target to build an object file
-test/hello_test.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/hello_test.cc.o
-.PHONY : test/hello_test.cc.o
+test/checkout_spec.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/checkout_spec.cc.o
+.PHONY : test/checkout_spec.cc.o
 
-test/hello_test.i: test/hello_test.cc.i
-.PHONY : test/hello_test.i
+test/checkout_spec.i: test/checkout_spec.cc.i
+.PHONY : test/checkout_spec.i
 
 # target to preprocess a source file
-test/hello_test.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/hello_test.cc.i
-.PHONY : test/hello_test.cc.i
+test/checkout_spec.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/checkout_spec.cc.i
+.PHONY : test/checkout_spec.cc.i
 
-test/hello_test.s: test/hello_test.cc.s
-.PHONY : test/hello_test.s
+test/checkout_spec.s: test/checkout_spec.cc.s
+.PHONY : test/checkout_spec.s
 
 # target to generate assembly for a file
-test/hello_test.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/hello_test.cc.s
-.PHONY : test/hello_test.cc.s
+test/checkout_spec.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/checkout_spec.cc.s
+.PHONY : test/checkout_spec.cc.s
 
 # Help Target
 help:
@@ -319,9 +319,9 @@ help:
 	@echo "... src/cash_register.o"
 	@echo "... src/cash_register.i"
 	@echo "... src/cash_register.s"
-	@echo "... test/hello_test.o"
-	@echo "... test/hello_test.i"
-	@echo "... test/hello_test.s"
+	@echo "... test/checkout_spec.o"
+	@echo "... test/checkout_spec.i"
+	@echo "... test/checkout_spec.s"
 .PHONY : help
 
 

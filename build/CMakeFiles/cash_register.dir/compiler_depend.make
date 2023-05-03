@@ -233,10 +233,14 @@ CMakeFiles/cash_register.dir/src/cash_register.cpp.o: /Users/jean-philippemagido
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference \
   /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/checkout.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/item.h
 
 
 /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/item.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector:
 
 /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/checkout.h:
 
@@ -571,6 +575,8 @@ CMakeFiles/cash_register.dir/src/cash_register.cpp.o: /Users/jean-philippemagido
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/i386/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/string.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_ssize_t.h:
 
