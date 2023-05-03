@@ -31,9 +31,10 @@ public:
         std::cout << "items_count: " << items_count << "\n";
 
         for (int i = 0; i < items_count; ++i) {
+            total_sum += atof(items[i].price.c_str());
         }
 
-        return 20.00;
+        return total_sum;
     }
 };
 
