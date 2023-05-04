@@ -1,6 +1,7 @@
 /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles/cash_register.dir
 /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles/CheckoutTest.dir
 /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles/ItemTest.dir
+/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles/DiscountRuleTest.dir
 /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles/test.dir
 /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles/edit_cache.dir
 /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles/rebuild_cache.dir

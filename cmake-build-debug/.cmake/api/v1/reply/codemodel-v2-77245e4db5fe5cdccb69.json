@@ -22,7 +22,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				},
 				{
@@ -48,7 +49,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.googletest-build.googlemock-Debug-06fad54f2e34d398de92.json",
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-Debug-7076a7e64831d921177a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -58,14 +59,14 @@
 					"source" : "cmake-build-debug/_deps/googletest-src/googlemock",
 					"targetIndexes" : 
 					[
-						3,
-						4
+						4,
+						5
 					]
 				},
 				{
 					"build" : "_deps/googletest-build/googletest",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-d7a3d3ea7a8d66fafc67.json",
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-eebfba774faec285290e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -75,8 +76,8 @@
 					"source" : "cmake-build-debug/_deps/googletest-src/googletest",
 					"targetIndexes" : 
 					[
-						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -97,7 +98,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				},
 				{
@@ -125,8 +127,8 @@
 					"parentIndex" : 1,
 					"targetIndexes" : 
 					[
-						3,
-						4
+						4,
+						5
 					]
 				},
 				{
@@ -138,8 +140,8 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -148,15 +150,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CheckoutTest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CheckoutTest-Debug-ec1a088bdc6b95050f32.json",
+					"jsonFile" : "target-CheckoutTest-Debug-cbcd61b125877a0cb0d4.json",
 					"name" : "CheckoutTest",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ItemTest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ItemTest-Debug-55c17b52ee9062ad853c.json",
+					"jsonFile" : "target-ItemTest-Debug-2bbdf4af35838edf1ad6.json",
 					"name" : "ItemTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RuleTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RuleTest-Debug-c11453ab57cf762a08f5.json",
+					"name" : "RuleTest",
 					"projectIndex" : 0
 				},
 				{
@@ -176,7 +185,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "gmock_main::@0f7bb11d64f3678238c7",
-					"jsonFile" : "target-gmock_main-Debug-86f8dc5e379d464d88c1.json",
+					"jsonFile" : "target-gmock_main-Debug-91d1efb1668374b115c0.json",
 					"name" : "gmock_main",
 					"projectIndex" : 2
 				},

@@ -2,17 +2,21 @@
 
 #include "../src/checkout.h"
 
-TEST(Constructor, InitializeProperly
+TEST(Constructor, initializes
 ) {
-    std::string rule_name = "AAA";
-    Checkout new_checkout = Checkout(rule_name);
-    EXPECT_EQ(new_checkout.rules, rule_name);
+    DiscountRule rule = DiscountRule('A', "apple discount");
+    Checkout new_checkout = Checkout(rule);
+
+    EXPECT_EQ(new_checkout.discount_rules.size(), 1);
+    EXPECT_EQ(new_checkout.items.size(), 0);
+    EXPECT_EQ(new_checkout.items_count, 0);
 }
 
-TEST(Scan, StoreItem
+TEST(scan, stores_new_item
 ) {
+    DiscountRule rule = DiscountRule('A', "apple discount");
     Item new_item = Item("", "", "");
-    Checkout new_checkout = Checkout("aAa");
+    Checkout new_checkout = Checkout(rule);
 
     EXPECT_EQ(new_checkout.items_count, 0);
     EXPECT_EQ(new_checkout.items.size(), 0);
@@ -21,11 +25,13 @@ TEST(Scan, StoreItem
     EXPECT_EQ(new_checkout.items.size(), 1);
 }
 
-TEST(Total, ReturnTotal
+TEST(total, ReturnTotal
 ) {
     Item new_item1 = Item("", "$10.00", "");
     Item new_item2 = Item("", "$10.00", "");
-    Checkout new_checkout = Checkout("");
+    DiscountRule rule = DiscountRule('A', "apple discount");
+
+    Checkout new_checkout = Checkout(rule);
     new_checkout.scan(new_item1);
     new_checkout.scan(new_item2);
 

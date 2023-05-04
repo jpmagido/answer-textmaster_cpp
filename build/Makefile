@@ -211,6 +211,19 @@ ItemTest/fast:
 .PHONY : ItemTest/fast
 
 #=============================================================================
+# Target rules for targets named DiscountRuleTest
+
+# Build rule for target.
+DiscountRuleTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DiscountRuleTest
+.PHONY : DiscountRuleTest
+
+# fast build rule for target.
+DiscountRuleTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiscountRuleTest.dir/build.make CMakeFiles/DiscountRuleTest.dir/build
+.PHONY : DiscountRuleTest/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -310,6 +323,30 @@ test/checkout_test.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CheckoutTest.dir/build.make CMakeFiles/CheckoutTest.dir/test/checkout_test.cc.s
 .PHONY : test/checkout_test.cc.s
 
+test/discount_rule_test.o: test/discount_rule_test.cc.o
+.PHONY : test/discount_rule_test.o
+
+# target to build an object file
+test/discount_rule_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiscountRuleTest.dir/build.make CMakeFiles/DiscountRuleTest.dir/test/discount_rule_test.cc.o
+.PHONY : test/discount_rule_test.cc.o
+
+test/discount_rule_test.i: test/discount_rule_test.cc.i
+.PHONY : test/discount_rule_test.i
+
+# target to preprocess a source file
+test/discount_rule_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiscountRuleTest.dir/build.make CMakeFiles/DiscountRuleTest.dir/test/discount_rule_test.cc.i
+.PHONY : test/discount_rule_test.cc.i
+
+test/discount_rule_test.s: test/discount_rule_test.cc.s
+.PHONY : test/discount_rule_test.s
+
+# target to generate assembly for a file
+test/discount_rule_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiscountRuleTest.dir/build.make CMakeFiles/DiscountRuleTest.dir/test/discount_rule_test.cc.s
+.PHONY : test/discount_rule_test.cc.s
+
 test/item_test.o: test/item_test.cc.o
 .PHONY : test/item_test.o
 
@@ -348,6 +385,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... CheckoutTest"
+	@echo "... DiscountRuleTest"
 	@echo "... ItemTest"
 	@echo "... cash_register"
 	@echo "... gmock"
@@ -360,6 +398,9 @@ help:
 	@echo "... test/checkout_test.o"
 	@echo "... test/checkout_test.i"
 	@echo "... test/checkout_test.s"
+	@echo "... test/discount_rule_test.o"
+	@echo "... test/discount_rule_test.i"
+	@echo "... test/discount_rule_test.s"
 	@echo "... test/item_test.o"
 	@echo "... test/item_test.i"
 	@echo "... test/item_test.s"

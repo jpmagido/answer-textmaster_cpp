@@ -1,0 +1,5 @@
+if(EXISTS "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/DiscountRuleTest[1]_tests.cmake")
+  include("/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/DiscountRuleTest[1]_tests.cmake")
+else()
+  add_test(DiscountRuleTest_NOT_BUILT DiscountRuleTest_NOT_BUILT)
+endif()

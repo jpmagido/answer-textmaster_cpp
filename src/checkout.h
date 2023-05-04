@@ -5,18 +5,19 @@
 #include <vector>
 
 #include "item.h"
+#include "discount_rule.h"
 
 #ifndef CHECKOUT_H
 #define CHECKOUT_H
 
 class Checkout {
 public:
-    std::string rules;
+    std::vector<DiscountRule> discount_rules;
     std::vector<Item> items;
     int items_count;
 
-    Checkout(const std::string &rules) {
-        this->rules = rules;
+    Checkout(DiscountRule &discount_rule) {
+        discount_rules.push_back(discount_rule);
         this->items_count = 0;
     };
 

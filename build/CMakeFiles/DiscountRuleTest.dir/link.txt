@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/DiscountRuleTest.dir/test/discount_rule_test.cc.o -o DiscountRuleTest  lib/libgtest_main.a lib/libgtest.a 

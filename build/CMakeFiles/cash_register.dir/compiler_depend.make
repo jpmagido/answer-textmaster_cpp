@@ -235,7 +235,8 @@ CMakeFiles/cash_register.dir/src/cash_register.cpp.o: /Users/jean-philippemagido
   /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/checkout.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/item.h
+  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/item.h \
+  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/discount_rule.h
 
 
 /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/item.h:
@@ -271,6 +272,8 @@ CMakeFiles/cash_register.dir/src/cash_register.cpp.o: /Users/jean-philippemagido
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_gid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_blkcnt_t.h:
+
+/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/discount_rule.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_u_short.h:
 

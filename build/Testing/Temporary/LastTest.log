@@ -1,19 +1,19 @@
-Start testing: May 04 02:38 CEST
+Start testing: May 04 14:17 CEST
 ----------------------------------------------------------
-1/4 Testing: Constructor.InitializeProperly
-1/4 Test: Constructor.InitializeProperly
-Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=Constructor.InitializeProperly" "--gtest_also_run_disabled_tests"
+1/5 Testing: Constructor.initializes
+1/5 Test: Constructor.initializes
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=Constructor.initializes" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"Constructor.InitializeProperly" start time: May 04 02:38 CEST
+"Constructor.initializes" start time: May 04 14:17 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = Constructor.InitializeProperly
+Note: Google Test filter = Constructor.initializes
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from Constructor
-[ RUN      ] Constructor.InitializeProperly
-[       OK ] Constructor.InitializeProperly (0 ms)
+[ RUN      ] Constructor.initializes
+[       OK ] Constructor.initializes (0 ms)
 [----------] 1 test from Constructor (0 ms total)
 
 [----------] Global test environment tear-down
@@ -23,25 +23,25 @@ Note: Google Test filter = Constructor.InitializeProperly
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Constructor.InitializeProperly" end time: May 04 02:38 CEST
-"Constructor.InitializeProperly" time elapsed: 00:00:00
+"Constructor.initializes" end time: May 04 14:17 CEST
+"Constructor.initializes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/4 Testing: Scan.StoreItem
-2/4 Test: Scan.StoreItem
-Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=Scan.StoreItem" "--gtest_also_run_disabled_tests"
+2/5 Testing: scan.stores_new_item
+2/5 Test: scan.stores_new_item
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=scan.stores_new_item" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"Scan.StoreItem" start time: May 04 02:38 CEST
+"scan.stores_new_item" start time: May 04 14:17 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = Scan.StoreItem
+Note: Google Test filter = scan.stores_new_item
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from Scan
-[ RUN      ] Scan.StoreItem
-[       OK ] Scan.StoreItem (0 ms)
-[----------] 1 test from Scan (0 ms total)
+[----------] 1 test from scan
+[ RUN      ] scan.stores_new_item
+[       OK ] scan.stores_new_item (0 ms)
+[----------] 1 test from scan (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -50,26 +50,26 @@ Note: Google Test filter = Scan.StoreItem
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Scan.StoreItem" end time: May 04 02:38 CEST
-"Scan.StoreItem" time elapsed: 00:00:00
+"scan.stores_new_item" end time: May 04 14:17 CEST
+"scan.stores_new_item" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/4 Testing: Total.ReturnTotal
-3/4 Test: Total.ReturnTotal
-Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=Total.ReturnTotal" "--gtest_also_run_disabled_tests"
+3/5 Testing: total.ReturnTotal
+3/5 Test: total.ReturnTotal
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=total.ReturnTotal" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"Total.ReturnTotal" start time: May 04 02:38 CEST
+"total.ReturnTotal" start time: May 04 14:17 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = Total.ReturnTotal
+Note: Google Test filter = total.ReturnTotal
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from Total
-[ RUN      ] Total.ReturnTotal
+[----------] 1 test from total
+[ RUN      ] total.ReturnTotal
 items_count: 2
-[       OK ] Total.ReturnTotal (0 ms)
-[----------] 1 test from Total (0 ms total)
+[       OK ] total.ReturnTotal (0 ms)
+[----------] 1 test from total (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -78,15 +78,15 @@ items_count: 2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Total.ReturnTotal" end time: May 04 02:38 CEST
-"Total.ReturnTotal" time elapsed: 00:00:00
+"total.ReturnTotal" end time: May 04 14:17 CEST
+"total.ReturnTotal" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/4 Testing: Constructor.InitializeCode
-4/4 Test: Constructor.InitializeCode
+4/5 Testing: Constructor.InitializeCode
+4/5 Test: Constructor.InitializeCode
 Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/ItemTest" "--gtest_filter=Constructor.InitializeCode" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"Constructor.InitializeCode" start time: May 04 02:38 CEST
+"Constructor.InitializeCode" start time: May 04 14:17 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -105,8 +105,35 @@ Note: Google Test filter = Constructor.InitializeCode
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Constructor.InitializeCode" end time: May 04 02:38 CEST
+"Constructor.InitializeCode" end time: May 04 14:17 CEST
 "Constructor.InitializeCode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 04 02:38 CEST
+5/5 Testing: Constructor.initialize
+5/5 Test: Constructor.initialize
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/DiscountRuleTest" "--gtest_filter=Constructor.initialize" "--gtest_also_run_disabled_tests"
+Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
+"Constructor.initialize" start time: May 04 14:17 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Constructor.initialize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Constructor
+[ RUN      ] Constructor.initialize
+[       OK ] Constructor.initialize (0 ms)
+[----------] 1 test from Constructor (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Constructor.initialize" end time: May 04 14:17 CEST
+"Constructor.initialize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 04 14:17 CEST

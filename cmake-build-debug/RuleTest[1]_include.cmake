@@ -1,0 +1,5 @@
+if(EXISTS "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/cmake-build-debug/RuleTest[1]_tests.cmake")
+  include("/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/cmake-build-debug/RuleTest[1]_tests.cmake")
+else()
+  add_test(RuleTest_NOT_BUILT RuleTest_NOT_BUILT)
+endif()

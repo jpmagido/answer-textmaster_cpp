@@ -2,11 +2,13 @@
 
 #include "checkout.h"
 #include "item.h"
+#include "discount_rule.h"
 
 int main() {
     std::cout << "Hello Dear !\n";
+    DiscountRule discount = DiscountRule('A', "apple discount");
 
-    Checkout co = Checkout("rules 1");
+    Checkout co = Checkout(discount);
 
     Item apple = Item("AP1", "$5.00", "Apple");
     Item coffee = Item("CF1", "$11.23", "Coffee");
