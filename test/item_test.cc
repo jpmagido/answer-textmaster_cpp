@@ -4,7 +4,7 @@
 
 TEST(Constructor, InitializeCode
 ) {
-    std::string code = "AAA";
+    std::string code = "FR1";
     std::string price = "$10.34";
     std::string name = "applepie";
 

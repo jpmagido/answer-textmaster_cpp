@@ -5,20 +5,24 @@
 #include <vector>
 
 #include "item.h"
-#include "discount_rule.h"
+#include "discount.h"
 
 #ifndef CHECKOUT_H
 #define CHECKOUT_H
 
 class Checkout {
 public:
-    std::vector<DiscountRule> discount_rules;
+    std::vector<Discount> discounts;
     std::vector<Item> items;
     int items_count;
 
-    Checkout(DiscountRule &discount_rule) {
-        discount_rules.push_back(discount_rule);
+    Checkout(Discount discounts[], int size) {
+        this->size = size;
         this->items_count = 0;
+
+        for (int i = 0; i < size; ++i) {
+            this->discounts.push_back(discounts[i]);
+        }
     };
 
     void scan(const Item &new_item) {
@@ -37,6 +41,9 @@ public:
 
         return total_sum;
     }
+
+private:
+    int size;
 };
 
 #endif

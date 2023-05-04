@@ -287,5 +287,5 @@ CMakeFiles/CheckoutTest.dir/test/checkout_test.cc.o: \
   /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
   /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/../src/checkout.h \
   /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/../src/item.h \
-  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/../src/discount_rule.h \
+  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/../src/discount.h \
   /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/test/../src/../src/item.h

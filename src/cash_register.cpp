@@ -2,7 +2,7 @@
 
 #include "checkout.h"
 #include "item.h"
-#include "discount_rule.h"
+#include "discount.h"
 
 int main() {
     std::cout << "Hello Dear !\n";
@@ -11,9 +11,11 @@ int main() {
     Item coffee = Item("CF1", "$11.23", "Coffee");
     Item tea = Item("FR1", "$3.11", "Fruit tea");
 
-    DiscountRule discount = DiscountRule('A', "apple discount", apple);
+    Discount discount_apple = Discount("CF1");
+    Discount discount_tea = Discount("FR1");
+    Discount discounts[] = {discount_apple, discount_tea};
 
-    Checkout co = Checkout(discount);
+    Checkout co = Checkout(discounts, 2);
 
 
     // co.scan("AP1"); // Apple

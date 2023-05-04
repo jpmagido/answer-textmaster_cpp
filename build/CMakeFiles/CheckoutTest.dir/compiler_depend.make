@@ -289,7 +289,7 @@ CMakeFiles/CheckoutTest.dir/test/checkout_test.cc.o: /Users/jean-philippemagido/
   _deps/googletest-src/googletest/include/gtest/gtest_prod.h \
   /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/checkout.h \
   /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/item.h \
-  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/discount_rule.h \
+  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/discount.h \
   /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/item.h
 
 
@@ -394,8 +394,6 @@ _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_gid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_blkcnt_t.h:
-
-/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/discount_rule.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_u_short.h:
 
@@ -806,6 +804,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-death-test.h:
 _deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/errno.h:
+
+/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/discount.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__tuple:
 

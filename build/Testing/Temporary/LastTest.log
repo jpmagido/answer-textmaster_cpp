@@ -1,10 +1,10 @@
-Start testing: May 04 15:14 CEST
+Start testing: May 04 21:11 CEST
 ----------------------------------------------------------
-1/8 Testing: Constructor.initializes
-1/8 Test: Constructor.initializes
+1/11 Testing: Constructor.initializes
+1/11 Test: Constructor.initializes
 Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=Constructor.initializes" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"Constructor.initializes" start time: May 04 15:14 CEST
+"Constructor.initializes" start time: May 04 21:11 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -20,18 +20,18 @@ Note: Google Test filter = Constructor.initializes
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Constructor.initializes" end time: May 04 15:14 CEST
+"Constructor.initializes" end time: May 04 21:11 CEST
 "Constructor.initializes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/8 Testing: scan.stores_new_item
-2/8 Test: scan.stores_new_item
+2/11 Testing: scan.stores_new_item
+2/11 Test: scan.stores_new_item
 Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=scan.stores_new_item" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"scan.stores_new_item" start time: May 04 15:14 CEST
+"scan.stores_new_item" start time: May 04 21:11 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = scan.stores_new_item
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"scan.stores_new_item" end time: May 04 15:14 CEST
+"scan.stores_new_item" end time: May 04 21:11 CEST
 "scan.stores_new_item" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/8 Testing: total.ReturnTotal
-3/8 Test: total.ReturnTotal
+3/11 Testing: total.ReturnTotal
+3/11 Test: total.ReturnTotal
 Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=total.ReturnTotal" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"total.ReturnTotal" start time: May 04 15:14 CEST
+"total.ReturnTotal" start time: May 04 21:11 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -75,18 +75,102 @@ items_count: 2
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"total.ReturnTotal" end time: May 04 15:14 CEST
+"total.ReturnTotal" end time: May 04 21:11 CEST
 "total.ReturnTotal" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/8 Testing: Constructor.InitializeCode
-4/8 Test: Constructor.InitializeCode
+4/11 Testing: total_with_discount.return_total
+4/11 Test: total_with_discount.return_total
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=total_with_discount.return_total" "--gtest_also_run_disabled_tests"
+Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
+"total_with_discount.return_total" start time: May 04 21:11 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = total_with_discount.return_total
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from total_with_discount
+[ RUN      ] total_with_discount.return_total
+items_count: 4
+[       OK ] total_with_discount.return_total (0 ms)
+[----------] 1 test from total_with_discount (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"total_with_discount.return_total" end time: May 04 21:11 CEST
+"total_with_discount.return_total" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: total_with_discount.return_total2
+5/11 Test: total_with_discount.return_total2
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=total_with_discount.return_total2" "--gtest_also_run_disabled_tests"
+Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
+"total_with_discount.return_total2" start time: May 04 21:11 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = total_with_discount.return_total2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from total_with_discount
+[ RUN      ] total_with_discount.return_total2
+items_count: 4
+[       OK ] total_with_discount.return_total2 (0 ms)
+[----------] 1 test from total_with_discount (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"total_with_discount.return_total2" end time: May 04 21:11 CEST
+"total_with_discount.return_total2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: total_with_discount.return_total3
+6/11 Test: total_with_discount.return_total3
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=total_with_discount.return_total3" "--gtest_also_run_disabled_tests"
+Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
+"total_with_discount.return_total3" start time: May 04 21:11 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = total_with_discount.return_total3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from total_with_discount
+[ RUN      ] total_with_discount.return_total3
+items_count: 2
+[       OK ] total_with_discount.return_total3 (0 ms)
+[----------] 1 test from total_with_discount (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"total_with_discount.return_total3" end time: May 04 21:11 CEST
+"total_with_discount.return_total3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: Constructor.InitializeCode
+7/11 Test: Constructor.InitializeCode
 Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/ItemTest" "--gtest_filter=Constructor.InitializeCode" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"Constructor.InitializeCode" start time: May 04 15:14 CEST
+"Constructor.InitializeCode" start time: May 04 21:11 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -105,15 +189,15 @@ Note: Google Test filter = Constructor.InitializeCode
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Constructor.InitializeCode" end time: May 04 15:14 CEST
+"Constructor.InitializeCode" end time: May 04 21:11 CEST
 "Constructor.InitializeCode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/8 Testing: Constructor.initialize
-5/8 Test: Constructor.initialize
-Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/DiscountRuleTest" "--gtest_filter=Constructor.initialize" "--gtest_also_run_disabled_tests"
+8/11 Testing: Constructor.initialize
+8/11 Test: Constructor.initialize
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/DiscountTest" "--gtest_filter=Constructor.initialize" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"Constructor.initialize" start time: May 04 15:14 CEST
+"Constructor.initialize" start time: May 04 21:11 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -132,24 +216,78 @@ Note: Google Test filter = Constructor.initialize
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Constructor.initialize" end time: May 04 15:14 CEST
+"Constructor.initialize" end time: May 04 21:11 CEST
 "Constructor.initialize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/8 Testing: with_discount.apple_price
-6/8 Test: with_discount.apple_price
-Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/DiscountRuleTest" "--gtest_filter=with_discount.apple_price" "--gtest_also_run_disabled_tests"
+9/11 Testing: amount.apple_price
+9/11 Test: amount.apple_price
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/DiscountTest" "--gtest_filter=amount.apple_price" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"with_discount.apple_price" start time: May 04 15:14 CEST
+"amount.apple_price" start time: May 04 21:11 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = with_discount.apple_price
+Note: Google Test filter = amount.apple_price
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from amount
+[ RUN      ] amount.apple_price
+[       OK ] amount.apple_price (0 ms)
+[----------] 1 test from amount (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"amount.apple_price" end time: May 04 21:11 CEST
+"amount.apple_price" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: amount.tea_price_discount_2
+10/11 Test: amount.tea_price_discount_2
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/DiscountTest" "--gtest_filter=amount.tea_price_discount_2" "--gtest_also_run_disabled_tests"
+Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
+"amount.tea_price_discount_2" start time: May 04 21:11 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = amount.tea_price_discount_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from amount
+[ RUN      ] amount.tea_price_discount_2
+[       OK ] amount.tea_price_discount_2 (0 ms)
+[----------] 1 test from amount (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"amount.tea_price_discount_2" end time: May 04 21:11 CEST
+"amount.tea_price_discount_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: with_discount.tea_price_discount1
+11/11 Test: with_discount.tea_price_discount1
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/DiscountTest" "--gtest_filter=with_discount.tea_price_discount1" "--gtest_also_run_disabled_tests"
+Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
+"with_discount.tea_price_discount1" start time: May 04 21:11 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = with_discount.tea_price_discount1
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from with_discount
-[ RUN      ] with_discount.apple_price
-[       OK ] with_discount.apple_price (0 ms)
+[ RUN      ] with_discount.tea_price_discount1
+[       OK ] with_discount.tea_price_discount1 (0 ms)
 [----------] 1 test from with_discount (0 ms total)
 
 [----------] Global test environment tear-down
@@ -159,62 +297,8 @@ Note: Google Test filter = with_discount.apple_price
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"with_discount.apple_price" end time: May 04 15:14 CEST
-"with_discount.apple_price" time elapsed: 00:00:00
+"with_discount.tea_price_discount1" end time: May 04 21:11 CEST
+"with_discount.tea_price_discount1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/8 Testing: with_discount.tea_price
-7/8 Test: with_discount.tea_price
-Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/DiscountRuleTest" "--gtest_filter=with_discount.tea_price" "--gtest_also_run_disabled_tests"
-Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"with_discount.tea_price" start time: May 04 15:14 CEST
-Output:
-----------------------------------------------------------
-Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = with_discount.tea_price
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from with_discount
-[ RUN      ] with_discount.tea_price
-[       OK ] with_discount.tea_price (0 ms)
-[----------] 1 test from with_discount (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.01 sec
-----------------------------------------------------------
-Test Passed.
-"with_discount.tea_price" end time: May 04 15:14 CEST
-"with_discount.tea_price" time elapsed: 00:00:00
-----------------------------------------------------------
-
-8/8 Testing: with_discount.tea_price_2
-8/8 Test: with_discount.tea_price_2
-Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/DiscountRuleTest" "--gtest_filter=with_discount.tea_price_2" "--gtest_also_run_disabled_tests"
-Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"with_discount.tea_price_2" start time: May 04 15:14 CEST
-Output:
-----------------------------------------------------------
-Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = with_discount.tea_price_2
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from with_discount
-[ RUN      ] with_discount.tea_price_2
-[       OK ] with_discount.tea_price_2 (0 ms)
-[----------] 1 test from with_discount (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.00 sec
-----------------------------------------------------------
-Test Passed.
-"with_discount.tea_price_2" end time: May 04 15:14 CEST
-"with_discount.tea_price_2" time elapsed: 00:00:00
-----------------------------------------------------------
-
-End testing: May 04 15:14 CEST
+End testing: May 04 21:11 CEST

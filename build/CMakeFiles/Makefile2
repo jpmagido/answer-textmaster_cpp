@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/t
 all: CMakeFiles/cash_register.dir/all
 all: CMakeFiles/CheckoutTest.dir/all
 all: CMakeFiles/ItemTest.dir/all
-all: CMakeFiles/DiscountRuleTest.dir/all
+all: CMakeFiles/DiscountTest.dir/all
 all: _deps/googletest-build/all
 .PHONY : all
 
@@ -78,7 +78,7 @@ preinstall: _deps/googletest-build/preinstall
 clean: CMakeFiles/cash_register.dir/clean
 clean: CMakeFiles/CheckoutTest.dir/clean
 clean: CMakeFiles/ItemTest.dir/clean
-clean: CMakeFiles/DiscountRuleTest.dir/clean
+clean: CMakeFiles/DiscountTest.dir/clean
 clean: _deps/googletest-build/clean
 .PHONY : clean
 
@@ -214,31 +214,31 @@ CMakeFiles/ItemTest.dir/clean:
 .PHONY : CMakeFiles/ItemTest.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/DiscountRuleTest.dir
+# Target rules for target CMakeFiles/DiscountTest.dir
 
 # All Build rule for target.
-CMakeFiles/DiscountRuleTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
-CMakeFiles/DiscountRuleTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiscountRuleTest.dir/build.make CMakeFiles/DiscountRuleTest.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiscountRuleTest.dir/build.make CMakeFiles/DiscountRuleTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=3,4 "Built target DiscountRuleTest"
-.PHONY : CMakeFiles/DiscountRuleTest.dir/all
+CMakeFiles/DiscountTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/DiscountTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiscountTest.dir/build.make CMakeFiles/DiscountTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiscountTest.dir/build.make CMakeFiles/DiscountTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=3,4 "Built target DiscountTest"
+.PHONY : CMakeFiles/DiscountTest.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DiscountRuleTest.dir/rule: cmake_check_build_system
+CMakeFiles/DiscountTest.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DiscountRuleTest.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DiscountTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles 0
-.PHONY : CMakeFiles/DiscountRuleTest.dir/rule
+.PHONY : CMakeFiles/DiscountTest.dir/rule
 
 # Convenience name for target.
-DiscountRuleTest: CMakeFiles/DiscountRuleTest.dir/rule
-.PHONY : DiscountRuleTest
+DiscountTest: CMakeFiles/DiscountTest.dir/rule
+.PHONY : DiscountTest
 
 # clean rule for target.
-CMakeFiles/DiscountRuleTest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiscountRuleTest.dir/build.make CMakeFiles/DiscountRuleTest.dir/clean
-.PHONY : CMakeFiles/DiscountRuleTest.dir/clean
+CMakeFiles/DiscountTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiscountTest.dir/build.make CMakeFiles/DiscountTest.dir/clean
+.PHONY : CMakeFiles/DiscountTest.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock.dir
