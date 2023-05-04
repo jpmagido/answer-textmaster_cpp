@@ -12,5 +12,6 @@ TEST(Constructor, InitializeCode
 
     EXPECT_EQ(new_item.code, code);
     EXPECT_EQ(new_item.price, "10.34");
+    EXPECT_EQ(new_item.price_f, 10.34);
     EXPECT_EQ(new_item.name, name);
 }

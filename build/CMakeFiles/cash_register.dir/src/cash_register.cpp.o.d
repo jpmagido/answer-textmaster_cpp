@@ -234,4 +234,5 @@ CMakeFiles/cash_register.dir/src/cash_register.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/item.h \
-  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/discount_rule.h
+  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/discount_rule.h \
+  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/../src/item.h

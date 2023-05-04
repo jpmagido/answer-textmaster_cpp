@@ -287,8 +287,11 @@ CMakeFiles/DiscountRuleTest.dir/test/discount_rule_test.cc.o: /Users/jean-philip
   _deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
   _deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
   _deps/googletest-src/googletest/include/gtest/gtest_prod.h \
-  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/discount_rule.h
+  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/discount_rule.h \
+  /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/item.h
 
+
+/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/src/item.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest_prod.h:
 
