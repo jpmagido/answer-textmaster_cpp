@@ -20,14 +20,13 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-add_executable(
-        hello_test
-        test/checkout_spec.cc
-)
-target_link_libraries(
-        hello_test
-        GTest::gtest_main
-)
+add_executable(CheckoutTest test/checkout_test.cc)
+add_executable(ItemTest test/item_test.cc)
+
+target_link_libraries(CheckoutTest GTest::gtest_main)
+target_link_libraries(ItemTest GTest::gtest_main)
+
 
 include(GoogleTest)
-gtest_discover_tests(hello_test)
+gtest_discover_tests(CheckoutTest)
+gtest_discover_tests(ItemTest)

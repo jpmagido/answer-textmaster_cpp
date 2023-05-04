@@ -1,0 +1,5 @@
+if(EXISTS "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/checkout_spec[1]_tests.cmake")
+  include("/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/checkout_spec[1]_tests.cmake")
+else()
+  add_test(checkout_spec_NOT_BUILT checkout_spec_NOT_BUILT)
+endif()

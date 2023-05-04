@@ -1,10 +1,10 @@
-Start testing: May 04 01:58 CEST
+Start testing: May 04 02:38 CEST
 ----------------------------------------------------------
-1/3 Testing: Constructor.InitializeProperly
-1/3 Test: Constructor.InitializeProperly
-Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/hello_test" "--gtest_filter=Constructor.InitializeProperly" "--gtest_also_run_disabled_tests"
+1/4 Testing: Constructor.InitializeProperly
+1/4 Test: Constructor.InitializeProperly
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=Constructor.InitializeProperly" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"Constructor.InitializeProperly" start time: May 04 01:58 CEST
+"Constructor.InitializeProperly" start time: May 04 02:38 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = Constructor.InitializeProperly
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Constructor.InitializeProperly" end time: May 04 01:58 CEST
+"Constructor.InitializeProperly" end time: May 04 02:38 CEST
 "Constructor.InitializeProperly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/3 Testing: Scan.StoreItem
-2/3 Test: Scan.StoreItem
-Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/hello_test" "--gtest_filter=Scan.StoreItem" "--gtest_also_run_disabled_tests"
+2/4 Testing: Scan.StoreItem
+2/4 Test: Scan.StoreItem
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=Scan.StoreItem" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"Scan.StoreItem" start time: May 04 01:58 CEST
+"Scan.StoreItem" start time: May 04 02:38 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = Scan.StoreItem
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Scan.StoreItem" end time: May 04 01:58 CEST
+"Scan.StoreItem" end time: May 04 02:38 CEST
 "Scan.StoreItem" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/3 Testing: Total.ReturnTotal
-3/3 Test: Total.ReturnTotal
-Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/hello_test" "--gtest_filter=Total.ReturnTotal" "--gtest_also_run_disabled_tests"
+3/4 Testing: Total.ReturnTotal
+3/4 Test: Total.ReturnTotal
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CheckoutTest" "--gtest_filter=Total.ReturnTotal" "--gtest_also_run_disabled_tests"
 Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
-"Total.ReturnTotal" start time: May 04 01:58 CEST
+"Total.ReturnTotal" start time: May 04 02:38 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -78,8 +78,35 @@ items_count: 2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Total.ReturnTotal" end time: May 04 01:58 CEST
+"Total.ReturnTotal" end time: May 04 02:38 CEST
 "Total.ReturnTotal" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 04 01:58 CEST
+4/4 Testing: Constructor.InitializeCode
+4/4 Test: Constructor.InitializeCode
+Command: "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/ItemTest" "--gtest_filter=Constructor.InitializeCode" "--gtest_also_run_disabled_tests"
+Directory: /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build
+"Constructor.InitializeCode" start time: May 04 02:38 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Constructor.InitializeCode
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Constructor
+[ RUN      ] Constructor.InitializeCode
+[       OK ] Constructor.InitializeCode (0 ms)
+[----------] 1 test from Constructor (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Constructor.InitializeCode" end time: May 04 02:38 CEST
+"Constructor.InitializeCode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 04 02:38 CEST

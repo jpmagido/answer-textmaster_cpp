@@ -1,0 +1,5 @@
+if(EXISTS "/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/cmake-build-debug/ItemTest[1]_tests.cmake")
+  include("/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/cmake-build-debug/ItemTest[1]_tests.cmake")
+else()
+  add_test(ItemTest_NOT_BUILT ItemTest_NOT_BUILT)
+endif()

@@ -2,7 +2,8 @@ HelloTest.BasicAssertions 4 0.000884559
 CheckoutConstructor.InitializeProperly 23 0.000139393
 CheckoutScanString.StoreItem 10 0
 CheckoutTotal.DisplayTotal 0 0
-Constructor.InitializeProperly 19 0.000196528
-Scan.StoreItem 7 0.00054512
-Total.ReturnTotal 7 0.000473602
+Constructor.InitializeProperly 23 0.000164576
+Scan.StoreItem 11 0.000281846
+Total.ReturnTotal 11 0.000283469
+Constructor.InitializeCode 1 0.00323782
 ---

@@ -64,7 +64,8 @@ CMAKE_BINARY_DIR = /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/t
 
 # The main recursive "all" target.
 all: CMakeFiles/cash_register.dir/all
-all: CMakeFiles/hello_test.dir/all
+all: CMakeFiles/CheckoutTest.dir/all
+all: CMakeFiles/ItemTest.dir/all
 all: _deps/googletest-build/all
 .PHONY : all
 
@@ -74,7 +75,8 @@ preinstall: _deps/googletest-build/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/cash_register.dir/clean
-clean: CMakeFiles/hello_test.dir/clean
+clean: CMakeFiles/CheckoutTest.dir/clean
+clean: CMakeFiles/ItemTest.dir/clean
 clean: _deps/googletest-build/clean
 .PHONY : clean
 
@@ -136,7 +138,7 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 CMakeFiles/cash_register.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cash_register.dir/build.make CMakeFiles/cash_register.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cash_register.dir/build.make CMakeFiles/cash_register.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=1,2 "Built target cash_register"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=5,6 "Built target cash_register"
 .PHONY : CMakeFiles/cash_register.dir/all
 
 # Build rule for subdir invocation for target.
@@ -156,31 +158,58 @@ CMakeFiles/cash_register.dir/clean:
 .PHONY : CMakeFiles/cash_register.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello_test.dir
+# Target rules for target CMakeFiles/CheckoutTest.dir
 
 # All Build rule for target.
-CMakeFiles/hello_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
-CMakeFiles/hello_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=11,12 "Built target hello_test"
-.PHONY : CMakeFiles/hello_test.dir/all
+CMakeFiles/CheckoutTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/CheckoutTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CheckoutTest.dir/build.make CMakeFiles/CheckoutTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CheckoutTest.dir/build.make CMakeFiles/CheckoutTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=1,2 "Built target CheckoutTest"
+.PHONY : CMakeFiles/CheckoutTest.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hello_test.dir/rule: cmake_check_build_system
+CMakeFiles/CheckoutTest.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_test.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CheckoutTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles 0
-.PHONY : CMakeFiles/hello_test.dir/rule
+.PHONY : CMakeFiles/CheckoutTest.dir/rule
 
 # Convenience name for target.
-hello_test: CMakeFiles/hello_test.dir/rule
-.PHONY : hello_test
+CheckoutTest: CMakeFiles/CheckoutTest.dir/rule
+.PHONY : CheckoutTest
 
 # clean rule for target.
-CMakeFiles/hello_test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/clean
-.PHONY : CMakeFiles/hello_test.dir/clean
+CMakeFiles/CheckoutTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CheckoutTest.dir/build.make CMakeFiles/CheckoutTest.dir/clean
+.PHONY : CMakeFiles/CheckoutTest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ItemTest.dir
+
+# All Build rule for target.
+CMakeFiles/ItemTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/ItemTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemTest.dir/build.make CMakeFiles/ItemTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemTest.dir/build.make CMakeFiles/ItemTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=3,4 "Built target ItemTest"
+.PHONY : CMakeFiles/ItemTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ItemTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ItemTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles 0
+.PHONY : CMakeFiles/ItemTest.dir/rule
+
+# Convenience name for target.
+ItemTest: CMakeFiles/ItemTest.dir/rule
+.PHONY : ItemTest
+
+# clean rule for target.
+CMakeFiles/ItemTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemTest.dir/build.make CMakeFiles/ItemTest.dir/clean
+.PHONY : CMakeFiles/ItemTest.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock.dir
@@ -189,7 +218,7 @@ CMakeFiles/hello_test.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=3,4 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=7,8 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -216,7 +245,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=9,10 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -242,7 +271,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=7,8 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=11,12 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -268,7 +297,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jean-philippemagido/dev_workspace/challenges-RMD/C++/textmaster/build/CMakeFiles --progress-num=13,14 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.

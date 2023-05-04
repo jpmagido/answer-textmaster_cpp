@@ -185,17 +185,30 @@ cash_register/fast:
 .PHONY : cash_register/fast
 
 #=============================================================================
-# Target rules for targets named hello_test
+# Target rules for targets named CheckoutTest
 
 # Build rule for target.
-hello_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_test
-.PHONY : hello_test
+CheckoutTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CheckoutTest
+.PHONY : CheckoutTest
 
 # fast build rule for target.
-hello_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/build
-.PHONY : hello_test/fast
+CheckoutTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CheckoutTest.dir/build.make CMakeFiles/CheckoutTest.dir/build
+.PHONY : CheckoutTest/fast
+
+#=============================================================================
+# Target rules for targets named ItemTest
+
+# Build rule for target.
+ItemTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ItemTest
+.PHONY : ItemTest
+
+# fast build rule for target.
+ItemTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemTest.dir/build.make CMakeFiles/ItemTest.dir/build
+.PHONY : ItemTest/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -273,29 +286,53 @@ src/cash_register.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cash_register.dir/build.make CMakeFiles/cash_register.dir/src/cash_register.cpp.s
 .PHONY : src/cash_register.cpp.s
 
-test/checkout_spec.o: test/checkout_spec.cc.o
-.PHONY : test/checkout_spec.o
+test/checkout_test.o: test/checkout_test.cc.o
+.PHONY : test/checkout_test.o
 
 # target to build an object file
-test/checkout_spec.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/checkout_spec.cc.o
-.PHONY : test/checkout_spec.cc.o
+test/checkout_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CheckoutTest.dir/build.make CMakeFiles/CheckoutTest.dir/test/checkout_test.cc.o
+.PHONY : test/checkout_test.cc.o
 
-test/checkout_spec.i: test/checkout_spec.cc.i
-.PHONY : test/checkout_spec.i
+test/checkout_test.i: test/checkout_test.cc.i
+.PHONY : test/checkout_test.i
 
 # target to preprocess a source file
-test/checkout_spec.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/checkout_spec.cc.i
-.PHONY : test/checkout_spec.cc.i
+test/checkout_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CheckoutTest.dir/build.make CMakeFiles/CheckoutTest.dir/test/checkout_test.cc.i
+.PHONY : test/checkout_test.cc.i
 
-test/checkout_spec.s: test/checkout_spec.cc.s
-.PHONY : test/checkout_spec.s
+test/checkout_test.s: test/checkout_test.cc.s
+.PHONY : test/checkout_test.s
 
 # target to generate assembly for a file
-test/checkout_spec.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/checkout_spec.cc.s
-.PHONY : test/checkout_spec.cc.s
+test/checkout_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CheckoutTest.dir/build.make CMakeFiles/CheckoutTest.dir/test/checkout_test.cc.s
+.PHONY : test/checkout_test.cc.s
+
+test/item_test.o: test/item_test.cc.o
+.PHONY : test/item_test.o
+
+# target to build an object file
+test/item_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemTest.dir/build.make CMakeFiles/ItemTest.dir/test/item_test.cc.o
+.PHONY : test/item_test.cc.o
+
+test/item_test.i: test/item_test.cc.i
+.PHONY : test/item_test.i
+
+# target to preprocess a source file
+test/item_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemTest.dir/build.make CMakeFiles/ItemTest.dir/test/item_test.cc.i
+.PHONY : test/item_test.cc.i
+
+test/item_test.s: test/item_test.cc.s
+.PHONY : test/item_test.s
+
+# target to generate assembly for a file
+test/item_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemTest.dir/build.make CMakeFiles/ItemTest.dir/test/item_test.cc.s
+.PHONY : test/item_test.cc.s
 
 # Help Target
 help:
@@ -310,18 +347,22 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... CheckoutTest"
+	@echo "... ItemTest"
 	@echo "... cash_register"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... hello_test"
 	@echo "... src/cash_register.o"
 	@echo "... src/cash_register.i"
 	@echo "... src/cash_register.s"
-	@echo "... test/checkout_spec.o"
-	@echo "... test/checkout_spec.i"
-	@echo "... test/checkout_spec.s"
+	@echo "... test/checkout_test.o"
+	@echo "... test/checkout_test.i"
+	@echo "... test/checkout_test.s"
+	@echo "... test/item_test.o"
+	@echo "... test/item_test.i"
+	@echo "... test/item_test.s"
 .PHONY : help
 
 

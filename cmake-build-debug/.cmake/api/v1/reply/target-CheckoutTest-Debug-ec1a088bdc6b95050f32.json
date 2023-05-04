@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "hello_test"
+			"path" : "CheckoutTest"
 		}
 	],
 	"backtrace" : 1,
@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 27,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -97,7 +97,7 @@
 			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
 		}
 	],
-	"id" : "hello_test::@6890427a1f51a3e7e1df",
+	"id" : "CheckoutTest::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -123,8 +123,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "hello_test",
-	"nameOnDisk" : "hello_test",
+	"name" : "CheckoutTest",
+	"nameOnDisk" : "CheckoutTest",
 	"paths" : 
 	{
 		"build" : ".",
@@ -145,7 +145,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test/hello_test.cc",
+			"path" : "test/checkout_test.cc",
 			"sourceGroupIndex" : 0
 		}
 	],
