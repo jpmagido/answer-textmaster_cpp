@@ -28,7 +28,7 @@ public:
         }
 
         if (items[0].code == "FR1" && quantity >= 2) {
-            return total_price / quantity;
+            return total_price - (total_price / quantity) * (quantity / 2);
         }
 
         return total_price;

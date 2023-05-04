@@ -26,6 +26,15 @@ TEST(with_discount, tea_price) {
     Item tea = Item("FR1", "$10.00", "Tea");
     DiscountRule discount_rule = DiscountRule('A', "test", tea);
 
-    EXPECT_EQ(discount_rule.with_discount(20.00, 2), 10.00);
     EXPECT_EQ(discount_rule.with_discount(10.00, 4), -1);
+}
+
+TEST(with_discount, tea_price_2) {
+    Item tea = Item("FR1", "$10.00", "Tea");
+    DiscountRule discount_rule = DiscountRule('A', "test", tea);
+
+    EXPECT_EQ(discount_rule.with_discount(10.00, 1), 10.00);
+    EXPECT_EQ(discount_rule.with_discount(20.00, 2), 10.00);
+    EXPECT_EQ(discount_rule.with_discount(50.00, 5), 30.00);
+    EXPECT_EQ(discount_rule.with_discount(80.00, 8), 40.00);
 }

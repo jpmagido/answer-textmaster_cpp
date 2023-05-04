@@ -5,12 +5,13 @@ CheckoutTotal.DisplayTotal 0 0
 Constructor.InitializeProperly 24 0.000633421
 Scan.StoreItem 12 0.000273877
 Total.ReturnTotal 12 0.000269218
-Constructor.InitializeCode 11 0.000416155
-Constructor.initializes 9 0.000490082
-scan.stores_new_item 9 0.00046413
-total.ReturnTotal 9 0.000452357
-Constructor.initialize 8 0.000595836
+Constructor.InitializeCode 17 0.000293563
+Constructor.initializes 15 0.000336981
+scan.stores_new_item 15 0.000320263
+total.ReturnTotal 15 0.00037635
+Constructor.initialize 14 0.000351175
 with_discount.computes_price 2 0.00194612
-with_discount.apple_price 1 0.00391444
-with_discount.tea_price 1 0.00396896
+with_discount.apple_price 7 0.00062428
+with_discount.tea_price 7 0.0007787
+with_discount.tea_price_2 4 0.00114123
 ---
