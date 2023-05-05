@@ -2,10 +2,18 @@
 
 #include "../src/checkout.h"
 
-TEST(Constructor, initializes
+TEST(Constructor, no_arg
 ) {
-    Item new_item = Item("", "", "");
+    Checkout new_checkout = Checkout();
 
+    EXPECT_EQ(new_checkout.discounts.size(), 0);
+    EXPECT_EQ(new_checkout.items_FR1.size(), 0);
+    EXPECT_EQ(new_checkout.items_AP1.size(), 0);
+    EXPECT_EQ(new_checkout.items_CF1.size(), 0);
+}
+
+TEST(Constructor, two_args
+) {
     Discount rule1 = Discount("FR1");
     Discount rule2 = Discount("AP1");
 
@@ -13,32 +21,29 @@ TEST(Constructor, initializes
     Checkout new_checkout = Checkout(discounts, 2);
 
     EXPECT_EQ(new_checkout.discounts.size(), 2);
-    EXPECT_EQ(new_checkout.items.size(), 0);
-    EXPECT_EQ(new_checkout.items_count, 0);
+    EXPECT_EQ(new_checkout.items_FR1.size(), 0);
+    EXPECT_EQ(new_checkout.items_AP1.size(), 0);
+    EXPECT_EQ(new_checkout.items_CF1.size(), 0);
 }
 
 TEST(scan, stores_new_item
 ) {
-    Item new_item = Item("", "", "");
+    Item new_item = Item("FR1", "", "");
     Discount rule = Discount("FR1");
     Discount rules[] = {rule};
     Checkout new_checkout = Checkout(rules, 1);
 
-    EXPECT_EQ(new_checkout.items_count, 0);
-    EXPECT_EQ(new_checkout.items.size(), 0);
+    EXPECT_EQ(new_checkout.items_FR1.size(), 0);
     new_checkout.scan(new_item);
-    EXPECT_EQ(new_checkout.items_count, 1);
-    EXPECT_EQ(new_checkout.items.size(), 1);
+    EXPECT_EQ(new_checkout.items_FR1.size(), 1);
 }
 
-TEST(total, ReturnTotal
+TEST(total, no_discount_example
 ) {
-    Item new_item1 = Item("", "$10.00", "");
-    Item new_item2 = Item("", "$10.00", "");
-    Discount discount = Discount("FR1");
-    Discount discounts[] = {discount};
+    Item new_item1 = Item("FR1", "$10.00", "test");
+    Item new_item2 = Item("FR1", "$10.00", "test");
 
-    Checkout new_checkout = Checkout(discounts, 1);
+    Checkout new_checkout = Checkout();
     new_checkout.scan(new_item1);
     new_checkout.scan(new_item2);
 
@@ -49,7 +54,7 @@ TEST(total, example1) {
     Item tea1 = Item("FR1", "$3.11", "Tea");
     Item tea2 = Item("FR1", "$3.11", "Tea");
     Item apple1 = Item("AP1", "$5.00", "Apple");
-    Item coffee = Item("CF11", "$11.23", "Apple");
+    Item coffee = Item("CF1", "$11.23", "Coffee");
 
     Item items[] = {tea1, tea2, apple1, coffee};
 
@@ -63,8 +68,7 @@ TEST(total, example1) {
         new_checkout.scan(item);
     }
 
-    EXPECT_EQ(new_checkout.total(), 22.45);
-    // EXPECT_EQ(new_checkout.total(), 19.34); // true test
+    EXPECT_EQ(new_checkout.total(), 19.34);
 }
 
 TEST(total, example2) {
@@ -79,14 +83,13 @@ TEST(total, example2) {
     Discount discount2 = Discount("AP1");
     Discount discounts[] = {discount1, discount2};
 
-    Checkout new_checkout = Checkout(discounts, 1);
+    Checkout new_checkout = Checkout(discounts, 2);
 
-    for (const auto &item: items) {
+    for (auto &item: items) {
         new_checkout.scan(item);
     }
 
-    EXPECT_EQ(new_checkout.total(), 18.11);
-    // EXPECT_EQ(new_checkout.total(), 16.61); // true test
+    EXPECT_EQ(new_checkout.total(), 16.61);
 }
 
 TEST(total, example3) {
@@ -104,6 +107,5 @@ TEST(total, example3) {
         new_checkout.scan(item);
     }
 
-    EXPECT_EQ(new_checkout.total(), 6.22);
-    // EXPECT_EQ(new_checkout.total(), 3.11); // true test
+    EXPECT_EQ(new_checkout.total(), 3.11);
 }

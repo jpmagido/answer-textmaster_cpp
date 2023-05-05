@@ -1,1 +1,6 @@
-5:total_with_discount.return_total2
+1:Constructor.initializes
+2:scan.stores_new_item
+3:total.no_discount_example
+4:total.example1
+5:total.example2
+6:total.example3

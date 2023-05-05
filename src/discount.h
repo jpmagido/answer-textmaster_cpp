@@ -25,23 +25,23 @@ public:
             return apple_discount();
         }
 
-        return total_price;
+        return 0.00;
     }
 
 private:
     double fruit_tea_discount() {
         if (quantity >= 2) {
-            return total_price - (total_price / quantity) * (quantity / 2);
+            return (total_price / quantity) * (quantity / 2);
         } else {
-            return total_price;
+            return 0.00;
         }
     }
 
     double apple_discount() {
         if (quantity >= 3) {
-            return total_price - (0.5 * quantity);
+            return 0.5 * quantity;
         } else {
-            return total_price;
+            return 0.00;
         }
     }
 };

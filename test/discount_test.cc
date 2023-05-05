@@ -14,7 +14,7 @@ TEST(Constructor, initialize) {
 TEST(amount, apple_price) {
     Discount discount_apple = Discount("AP1");
 
-    EXPECT_EQ(discount_apple.amount(20.00, 4), 18.00);
+    EXPECT_EQ(discount_apple.amount(20.00, 4), 2.00);
 }
 
 // Discount Tea
@@ -27,10 +27,10 @@ TEST(with_discount, tea_price_discount1) {
 TEST(amount, tea_price_discount_2) {
     Discount discount_tea = Discount("FR1");
 
-    EXPECT_EQ(discount_tea.amount(4.00, 1), 4);
+    EXPECT_EQ(discount_tea.amount(4.00, 1), 0.00);
     EXPECT_EQ(discount_tea.amount(8.00, 2), 4.00);
-    EXPECT_EQ(discount_tea.amount(12.00, 3), 8.00);
+    EXPECT_EQ(discount_tea.amount(12.00, 3), 4.00);
     EXPECT_EQ(discount_tea.amount(16.00, 4), 8.00);
-    EXPECT_EQ(discount_tea.amount(20.00, 5), 12.00);
+    EXPECT_EQ(discount_tea.amount(20.00, 5), 8.00);
     EXPECT_EQ(discount_tea.amount(28.00, 8), 14.00);
 }
