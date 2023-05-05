@@ -1,5 +1,5 @@
 # The problem
-**TextMaster's quest for global domination has prompted us to open a supermarket - we sell only three products:**
+**Our quest for global domination has prompted us to open a supermarket - we sell only three products:**
 
 ```
 +--------------|--------------|---------+
@@ -24,12 +24,8 @@ co.scan(item);
 price = co.total;
 ```
 
-Implement a checkout system that fulfils these requirements in Ruby.
+Implement a checkout system that fulfils these requirements in C++.
 
 Here are some test data:
 
 Basket: FR1, AP1, FR1, CF1 Total price expected: $19.34 Basket: FR1, FR1 Total price expected: $3.11 Basket: AP1, AP1, FR1, AP1 Total price expected: $16.61
-
-PS: Here at TextMaster, we love specs ;)
-
-The purpose of this test is to verify your abilities to code and see how you architect an application.
