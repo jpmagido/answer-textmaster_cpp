@@ -16,11 +16,10 @@ public:
     std::vector<Item> items_AP1;
     std::vector<Item> items_CF1;
 
-    Checkout() {};
+    Checkout() : discounts_size() {};
 
     Checkout(Discount new_discounts[], int size) {
         this->discounts_size = size;
-
         for (int i = 0; i < discounts_size; ++i) {
             discounts.push_back(new_discounts[i]);
         }

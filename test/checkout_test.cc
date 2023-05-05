@@ -29,9 +29,7 @@ TEST(Constructor, two_args
 TEST(scan, stores_new_item
 ) {
     Item new_item = Item("FR1", "", "");
-    Discount rule = Discount("FR1");
-    Discount rules[] = {rule};
-    Checkout new_checkout = Checkout(rules, 1);
+    Checkout new_checkout = Checkout();
 
     EXPECT_EQ(new_checkout.items_FR1.size(), 0);
     new_checkout.scan(new_item);
@@ -62,7 +60,7 @@ TEST(total, example1) {
     Discount discount2 = Discount("AP1");
     Discount discounts[] = {discount1, discount2};
 
-    Checkout new_checkout = Checkout(discounts, 1);
+    Checkout new_checkout = Checkout(discounts, 2);
 
     for (const auto &item: items) {
         new_checkout.scan(item);
